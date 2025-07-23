@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/the-realty-roadmap/static/css/main.1efe1aba.css",
+    "main.js": "/the-realty-roadmap/static/js/main.20a51ea0.js",
+    "static/js/453.925bba4a.chunk.js": "/the-realty-roadmap/static/js/453.925bba4a.chunk.js",
+    "index.html": "/the-realty-roadmap/index.html",
+    "main.1efe1aba.css.map": "/the-realty-roadmap/static/css/main.1efe1aba.css.map",
+    "main.20a51ea0.js.map": "/the-realty-roadmap/static/js/main.20a51ea0.js.map",
+    "453.925bba4a.chunk.js.map": "/the-realty-roadmap/static/js/453.925bba4a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1efe1aba.css",
+    "static/js/main.20a51ea0.js"
+  ]
+}
