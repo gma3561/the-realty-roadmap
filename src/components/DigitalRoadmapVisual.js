@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { CheckCircle, Circle, Calendar, Target, Users, BarChart3, ChevronDown, ChevronRight, Building2, TrendingUp, Shield, Zap } from 'lucide-react';
+import '../DigitalRoadmap.css';
 
 const DigitalRoadmapVisual = () => {
   const [expandedSections, setExpandedSections] = useState({});
