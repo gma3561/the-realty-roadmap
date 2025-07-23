@@ -12,78 +12,77 @@ const DigitalRoadmapVisual = () => {
     }));
   };
 
-  const mentoringContent = {
-    title: "더부동산 정연서대표님 멘토링 - 현행 업무 프로세스 진단",
+  const projectSummary = {
+    title: "디지털 혁신 프로젝트 계획",
     sections: [
       {
-        id: "business_model",
-        title: "사업 모델 검토",
-        icon: <Building2 className="w-5 h-5" />,
+        id: "goal",
+        title: "프로젝트 목표",
+        icon: <Target className="w-5 h-5" />,
         color: "text-blue-600",
         items: [
           {
-            question: "무엇을 하려는가?",
-            answer: "고급주거 중개",
+            question: "핵심 목표",
+            answer: "디지털 혁신을 통한 업무 효율화",
             subItems: [
-              "왜 하려는가? → 고액 수수료를 기대할 수 있는 좋은 사업",
-              "혼자 vs 회사 운영 효용성 분석 필요",
-              "물건이 많아 혼자 핸들링의 한계"
+              "업무 프로세스 디지털화 및 자동화",
+              "데이터 기반 의사결정 체계 구축",
+              "고객 경험 개선 및 서비스 품질 향상"
             ]
           }
         ]
       },
       {
-        id: "optimization",
-        title: "운영 최적화 분석",
+        id: "strategy",
+        title: "전략적 접근",
         icon: <TrendingUp className="w-5 h-5" />,
         color: "text-green-600",
         items: [
           {
-            question: "효율성 극대화 방안",
-            answer: "10명이 10억 vs 5명이 10억",
+            question: "디지털 전환 방향",
+            answer: "단계적 전환 및 검증",
             subItems: [
-              "사무실 위치와 임대료 적절성 검토",
-              "인력 유지 비용 최적화 (식대, 교통비 등)",
-              "마케팅 ROI 분석 및 개선"
+              "현행 시스템 진단 및 요구사항 정의",
+              "핵심 기능 우선 구현 및 테스트",
+              "실시간 모니터링 및 성과 측정"
             ]
           },
           {
-            question: "마케팅 효율성",
-            answer: "단위 마케팅 비용 대비 기대 매출 분석",
+            question: "성공 지표",
+            answer: "정량적/정성적 지표 설정",
             subItems: [
-              "계약 성공률이 낮은 물건 유형 파악",
-              "효율이 낮은 채널 정리",
-              "새로운 채널 발굴 (회사 사이트 → 리드 발굴)"
+              "업무 처리 시간 단축률",
+              "고객 만족도 상승률",
+              "데이터 분석을 통한 매출 증대 효과"
             ]
           }
         ]
       },
       {
-        id: "organization",
-        title: "조직 관리 진단",
+        id: "resources",
+        title: "프로젝트 자원",
         icon: <Users className="w-5 h-5" />,
         color: "text-purple-600",
         items: [
           {
-            question: "조직 장악력",
-            answer: "불평, 퍼포먼스, 스트레스 요인 분석",
+            question: "필요 자원",
+            answer: "인력, 기술, 시간 자원 배분",
             subItems: [
-              "불평이 많은 이유: 태도 vs 컨트롤 이슈",
-              "퍼포먼스 부족 원인: 스킬 부족 vs 동기 부족",
-              "조직원 동기부여 요소 파악",
-              "프로 3명 vs 아마추어 10명 전략 선택"
+              "디지털 역량 교육 및 훈련",
+              "적정 기술 스택 선정",
+              "단계별 검증 및 피드백 체계"
             ]
           }
         ]
       }
     ],
     proposals: [
-      "명확한 비전과 미션 수립",
-      "연간 목표, 사업 로드맵 수립", 
-      "주간/월간/연간 KPI 설정",
-      "조직 장악 - 이끌거나, 따르거나, 떠나거나",
-      "시스템을 통한 업무 효율화",
-      "비용 효율화 - 고정비, 마케팅 비용 최적화"
+      "단계적 디지털 전환 계획 수립",
+      "핵심 업무 프로세스 우선 디지털화", 
+      "데이터 기반 의사결정 체계 구축",
+      "자동화를 통한 업무 효율성 증대",
+      "실시간 모니터링 시스템 구축",
+      "고객 경험 혁신 및 서비스 품질 향상"
     ]
   };
 
@@ -94,12 +93,11 @@ const DigitalRoadmapVisual = () => {
       icon: <BarChart3 className="w-6 h-6" />,
       color: "bg-blue-500",
       tasks: [
-        "현행 업무 프로세스 진단 및 개선점 도출 (멘토링 내용 반영)",
+        "현행 업무 프로세스 진단 및 개선점 도출",
         "디지털 역량 평가 및 발전 방향 수립",
         "데이터 통합 및 분석 기반 구축",
         "웹 서비스 요구사항 정의 및 기본 구조 설계"
-      ],
-      hasMentoring: true
+      ]
     },
     {
       weeks: "3-4주차",
@@ -145,19 +143,19 @@ const DigitalRoadmapVisual = () => {
         <h1 className="text-4xl font-bold text-gray-800 mb-4">
           6주 디지털 혁신 프로젝트 로드맵
         </h1>
-        <p className="text-gray-600 mb-6">더부동산 정연서대표님 멘토링 내용 반영</p>
+        <p className="text-gray-600 mb-6">체계적인 디지털 전환 계획</p>
         <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto"></div>
       </div>
 
-      {/* 멘토링 상세 내용 */}
+      {/* 프로젝트 상세 내용 */}
       <div className="mb-12 bg-white rounded-xl shadow-lg p-8">
         <div className="flex items-center mb-6">
           <Shield className="w-8 h-8 text-blue-600 mr-3" />
-          <h2 className="text-2xl font-bold text-gray-800">{mentoringContent.title}</h2>
+          <h2 className="text-2xl font-bold text-gray-800">{projectSummary.title}</h2>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
-          {mentoringContent.sections.map((section) => (
+          {projectSummary.sections.map((section) => (
             <div key={section.id} className="border border-gray-200 rounded-lg">
               <button
                 onClick={() => toggleSection(section.id)}
@@ -199,10 +197,10 @@ const DigitalRoadmapVisual = () => {
         <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-6">
           <div className="flex items-center mb-4">
             <Zap className="w-6 h-6 text-orange-500 mr-2" />
-            <h3 className="text-lg font-semibold text-gray-800">핵심 제안사항</h3>
+            <h3 className="text-lg font-semibold text-gray-800">핵심 추진 전략</h3>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-            {mentoringContent.proposals.map((proposal, index) => (
+            {projectSummary.proposals.map((proposal, index) => (
               <div key={index} className="flex items-center space-x-3">
                 <div className="w-2 h-2 bg-orange-500 rounded-full flex-shrink-0"></div>
                 <span className="text-gray-700 text-sm">{proposal}</span>
@@ -223,17 +221,12 @@ const DigitalRoadmapVisual = () => {
             </div>
 
             <div className={`${index % 2 === 0 ? 'mr-auto pr-8 text-right' : 'ml-auto pl-8'} w-1/2`}>
-              <div className={`bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 ${phase.hasMentoring ? 'border-l-4 border-blue-500' : ''}`}>
+              <div className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow duration-300">
                 <div className="flex items-center mb-4">
                   <Calendar className="w-5 h-5 text-gray-500 mr-2" />
                   <span className="text-sm font-semibold text-gray-600 uppercase tracking-wide">
                     {phase.weeks}
                   </span>
-                  {phase.hasMentoring && (
-                    <span className="ml-2 bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full">
-                      멘토링 반영
-                    </span>
-                  )}
                 </div>
                 
                 <h3 className="text-xl font-bold text-gray-800 mb-4">
@@ -258,22 +251,27 @@ const DigitalRoadmapVisual = () => {
 
       {/* 프로젝트 요약 */}
       <div className="mt-8 grid grid-cols-1 md:grid-cols-4 gap-6">
-        <div className="bg-white rounded-lg shadow p-6 text-center">
+        <div className="bg-white rounded-lg shadow p-6 text-center transform hover:scale-105 transition-transform duration-300">
           <div className="text-3xl font-bold text-blue-500 mb-2">6</div>
           <div className="text-gray-600">총 기간 (주)</div>
         </div>
-        <div className="bg-white rounded-lg shadow p-6 text-center">
+        <div className="bg-white rounded-lg shadow p-6 text-center transform hover:scale-105 transition-transform duration-300">
           <div className="text-3xl font-bold text-green-500 mb-2">4</div>
           <div className="text-gray-600">주요 단계</div>
         </div>
-        <div className="bg-white rounded-lg shadow p-6 text-center">
+        <div className="bg-white rounded-lg shadow p-6 text-center transform hover:scale-105 transition-transform duration-300">
           <div className="text-3xl font-bold text-purple-500 mb-2">16</div>
           <div className="text-gray-600">핵심 과제</div>
         </div>
-        <div className="bg-white rounded-lg shadow p-6 text-center">
+        <div className="bg-white rounded-lg shadow p-6 text-center transform hover:scale-105 transition-transform duration-300">
           <div className="text-3xl font-bold text-orange-500 mb-2">6</div>
-          <div className="text-gray-600">제안사항</div>
+          <div className="text-gray-600">추진 전략</div>
         </div>
+      </div>
+      
+      {/* 푸터 */}
+      <div className="mt-12 text-center text-gray-500 text-sm border-t border-gray-200 pt-6">
+        <p>© 2025 디지털 혁신 프로젝트</p>
       </div>
     </div>
   );
