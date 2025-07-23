@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/the-realty-roadmap/static/css/main.1a05e4f1.css",
-    "main.js": "/the-realty-roadmap/static/js/main.ca865a92.js",
+    "main.css": "/the-realty-roadmap/static/css/main.f855e6bc.css",
+    "main.js": "/the-realty-roadmap/static/js/main.d59777d2.js",
     "static/js/453.925bba4a.chunk.js": "/the-realty-roadmap/static/js/453.925bba4a.chunk.js",
     "index.html": "/the-realty-roadmap/index.html",
-    "main.1a05e4f1.css.map": "/the-realty-roadmap/static/css/main.1a05e4f1.css.map",
-    "main.ca865a92.js.map": "/the-realty-roadmap/static/js/main.ca865a92.js.map",
+    "main.f855e6bc.css.map": "/the-realty-roadmap/static/css/main.f855e6bc.css.map",
+    "main.d59777d2.js.map": "/the-realty-roadmap/static/js/main.d59777d2.js.map",
     "453.925bba4a.chunk.js.map": "/the-realty-roadmap/static/js/453.925bba4a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a05e4f1.css",
-    "static/js/main.ca865a92.js"
+    "static/css/main.f855e6bc.css",
+    "static/js/main.d59777d2.js"
   ]
 }
